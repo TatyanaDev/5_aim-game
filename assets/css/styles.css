@@ -5,17 +5,17 @@
 }
 
 body {
-  color: #fff;
   font-family: "Khula", sans-serif;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
   text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  color: #fff;
+  margin: 0;
 }
 
 a {
-  color: #fff;
   text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
@@ -32,14 +32,14 @@ h1 {
 }
 
 .screen {
-  display: flex;
+  background: linear-gradient(90deg, #29323c 0%, #485563 100%);
+  transition: margin 0.5s ease-out;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  display: flex;
   height: 100vh;
   width: 100vw;
-  transition: margin 0.5s ease-out;
-  background: linear-gradient(90deg, #29323c 0%, #485563 100%);
 }
 
 .screen.up {
@@ -47,10 +47,10 @@ h1 {
 }
 
 .time-list {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   list-style: none;
+  flex-wrap: wrap;
+  display: flex;
   padding: 0;
 }
 
@@ -61,11 +61,11 @@ h1 {
 .time-btn {
   background-color: transparent;
   border: 2px solid #c0c0c0;
-  color: #fff;
-  cursor: pointer;
-  font-family: inherit;
   padding: 0.5rem 1rem;
+  font-family: inherit;
   font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
 }
 
 .time-btn:hover {
@@ -82,16 +82,16 @@ h1 {
 }
 
 .board {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 500px;
-  height: 500px;
   background: linear-gradient(118.38deg, #29323c -4.6%, #485563 200.44%);
   box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;
+  justify-content: center;
+  align-items: center;
   border-radius: 30px;
+  position: relative;
   overflow: hidden;
+  height: 500px;
+  display: flex;
+  width: 500px;
 }
 
 .circle {
